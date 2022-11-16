@@ -1,0 +1,100 @@
+/* Colors and fonts */
+
+body  {
+  background: rgba(200, 0, 0, 0.2);
+  color: #C21010;
+  font-family: Noto Sans;
+  font-size: 20px;
+}
+
+
+h1 {
+  color: darkred;
+  font-size: 60px;
+  font-weight: 550;
+  font: PT Serif;
+}
+
+h2 {
+  color: #F05A28;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #E64848;
+}
+
+a:hover  {
+  color: red;
+}
+
+
+/* Custom design with class*/
+
+
+.container{
+  width:  700px;
+  margin: 40px auto;
+}
+
+@media (max-width:  500px) {
+  container {
+    width: 300px;
+  }
+}
+
+@media (max-width:  760px) {
+  container {
+    width: 600px;
+  }
+}
+
+.card-white {
+  background: #FEFCDB;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 30px;
+  margin: 40px 0px;
+  text-align: center
+}
+
+.img-circle {
+border-radius: 10%;
+}
+
+.btn-red {
+  background-color: #E64848;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.btn-red:hover {
+   background-color: darkred;
+   color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 40px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+.list-inline i:hover {
+  font-size: 52px;
+  color:  darkred;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
